@@ -1,0 +1,30 @@
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #23a6f0;
+  --second-text: #737373;
+  --danger: #e74040;
+  --ff: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-inline: auto;
+}
